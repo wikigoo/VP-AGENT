@@ -4,8 +4,8 @@ This repository contains a collection of reference SMs that are categorized by t
 
 ## List of Topics
 
-### Category 1
-- [SM Title 1](category1/SM1.md)
+### AI 
+- [PROMPT ENGINE](AI/PROMPT_ENGINE.md)
 - [SM Title 2](category1/SM2.md)
 
 ### Category 2
