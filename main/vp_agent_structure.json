@@ -1,73 +1,26 @@
 {
-  "agent_name": "VP AGENT",
-  "description": "Collection of System Messages for various purposes",
+  "files": [],
   "categories": [
     {
-      "id": "AI",
-      "title": {
-        "en": "Artificial Intelligence",
-        "fa": "هوش مصنوعی"
-      },
-      "system_messages": [
-        {
-          "id": "prompt_engine",
-          "title": {
-            "en": "PROMPT ENGINE",
-            "fa": "موتور پرامپت"
-          },
-          "purpose": "Helps users create, refine, and optimize prompts for AI models",
-          "path": "AI/PROMPT_ENGINE.md",
-          "tags": ["prompt engineering", "AI", "optimization"]
-        },
-        {
-          "id": "system_message_engineer",
-          "title": {
-            "en": "SYSTEM MESSAGE ENGINEER",
-            "fa": "مهندس پیام سیستم"
-          },
-          "purpose": "Assists in the design, development, and refinement of system messages.",
-          "path": "AI/SYSTEM_MESSAGE_ENGINEER.md",
-          "tags": ["system message", "AI", "engineering", "development", "design"]
-        }
-      ]
+      "id": "1",
+      "name": "Core Prompts",
+      "description": "Primary system prompts for VP AGENT"
     },
     {
-      "id": "Writing",
-      "title": {
-        "en": "Writing",
-        "fa": "نویسندگی"
-      },
-      "system_messages": [
-        {
-          "id": "creative_writing_coach",
-          "title": {
-            "en": "CREATIVE WRITING COACH",
-            "fa": "مربی نویسندگی خلاق"
-          },
-          "purpose": "Helps users improve their fiction writing skills",
-          "path": "Writing/CREATIVE_WRITING_COACH.md",
-          "tags": ["creative writing", "fiction", "writing coach", "feedback", "writing exercises"]
-        }
-      ]
+      "id": "2",
+      "name": "Utility Tools",
+      "description": "Tools for data extraction and management"
     },
     {
-      "id": "VP_AGENT_Enhancer",
-      "title": {
-        "en": "VP AGENT Enhancer",
-        "fa": "بهبود دهنده VP AGENT"
-      },
-      "system_messages": [
-        {
-          "id": "vp_agent_github_category",
-          "title": {
-            "en": "VP AGENT GitHub Category",
-            "fa": "دسته بندی VP AGENT GitHub"
-          },
-          "purpose": "Manages and processes content for the VP AGENT GitHub repository.",
-          "path": "VP_AGENT_Enhancer/VP_AGENT_GitHub_Category.md",
-          "tags": ["GitHub", "metadata extraction", "repository management", "JSON structure", "documentation update", "VP AGENT"]
-        }
-      ]
+      "id": "3",
+      "name": "Content Templates",
+      "description": "Templates for various content formats"
+    },
+    {
+      "id": "4",
+      "name": "Educational Resources",
+      "description": "Tutorials and guides for using VP AGENT"
     }
-  ]
+  ],
+  "tags": []
 }
