@@ -1,1 +1,25 @@
-
+{
+  "agent_name": "VP AGENT",
+  "description": "Collection of System Messages for various purposes",
+  "categories": [
+    {
+      "id": "AI",
+      "title": {
+        "en": "Artificial Intelligence",
+        "fa": "هوش مصنوعی"
+      },
+      "system_messages": [
+        {
+          "id": "prompt_engine",
+          "title": {
+            "en": "PROMPT ENGINE",
+            "fa": "موتور پرامپت"
+          },
+          "purpose": "Helps users create, refine, and optimize prompts for AI models",
+          "path": "AI/PROMPT_ENGINE.md",
+          "tags": ["prompt engineering", "AI", "optimization"]
+        }
+      ]
+    }
+  ]
+}
