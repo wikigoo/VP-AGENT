@@ -43,6 +43,7 @@ This repository serves as a structured database for the VP AGENT system. To use 
 3. Follow the instructions within each file to implement the prompt or utilize the resource
 
 ## File Structure
+<pre>
 ```VP-AGENT/
 ├── README.md                  # Main index and categories
 ├── index.md                   # Complete index with tags for quick search
@@ -75,8 +76,8 @@ This repository serves as a structured database for the VP AGENT system. To use 
 ├── case_studies.md
 ├── best_practices.md
 └── troubleshooting.md```
+   
 ## Search Functionality
-
 To quickly find files in this repository, you can use GitHub's search functionality:
 
 1. Type your search term in the search bar at the top of the page
