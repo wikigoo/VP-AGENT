@@ -99,10 +99,10 @@
       "name": "system prompt",
       "count": 1,
       "related_tags": [
-        "core",
         "VP AGENT",
-        "PSM",
-        "initialization"
+        "initialization",
+        "core",
+        "PSM"
       ]
     },
     {
@@ -110,8 +110,8 @@
       "count": 1,
       "related_tags": [
         "VP AGENT",
-        "system prompt",
         "initialization",
+        "system prompt",
         "PSM"
       ]
     },
@@ -119,9 +119,9 @@
       "name": "initialization",
       "count": 1,
       "related_tags": [
-        "core",
         "VP AGENT",
         "system prompt",
+        "core",
         "PSM"
       ]
     },
@@ -129,19 +129,19 @@
       "name": "PSM",
       "count": 1,
       "related_tags": [
-        "core",
         "VP AGENT",
+        "initialization",
         "system prompt",
-        "initialization"
+        "core"
       ]
     },
     {
       "name": "VP AGENT",
       "count": 1,
       "related_tags": [
-        "core",
-        "system prompt",
         "initialization",
+        "system prompt",
+        "core",
         "PSM"
       ]
     },
@@ -149,9 +149,9 @@
       "name": "utility",
       "count": 1,
       "related_tags": [
-        "content",
-        "summary",
         "AI",
+        "summary",
+        "content",
         "extraction"
       ]
     },
@@ -160,9 +160,9 @@
       "count": 1,
       "related_tags": [
         "utility",
+        "extraction",
         "content",
-        "AI",
-        "extraction"
+        "AI"
       ]
     },
     {
@@ -170,8 +170,8 @@
       "count": 1,
       "related_tags": [
         "utility",
-        "content",
         "summary",
+        "content",
         "AI"
       ]
     },
@@ -180,8 +180,8 @@
       "count": 1,
       "related_tags": [
         "utility",
-        "content",
         "summary",
+        "content",
         "extraction"
       ]
     },
@@ -189,28 +189,28 @@
       "name": "content",
       "count": 2,
       "related_tags": [
-        "extraction",
         "utility",
+        "summary",
         "template",
-        "AI",
-        "article"
+        "extraction",
+        "writing"
       ]
     },
     {
       "name": "tutorial",
       "count": 1,
       "related_tags": [
-        "guide",
+        "beginner",
         "introduction",
-        "beginner"
+        "guide"
       ]
     },
     {
       "name": "beginner",
       "count": 1,
       "related_tags": [
-        "guide",
         "introduction",
+        "guide",
         "tutorial"
       ]
     },
@@ -218,45 +218,45 @@
       "name": "guide",
       "count": 1,
       "related_tags": [
+        "beginner",
         "introduction",
-        "tutorial",
-        "beginner"
+        "tutorial"
       ]
     },
     {
       "name": "introduction",
       "count": 1,
       "related_tags": [
+        "beginner",
         "guide",
-        "tutorial",
-        "beginner"
+        "tutorial"
       ]
     },
     {
       "name": "template",
       "count": 1,
       "related_tags": [
+        "writing",
         "article",
-        "content",
-        "writing"
+        "content"
       ]
     },
     {
       "name": "article",
       "count": 1,
       "related_tags": [
-        "content",
         "writing",
-        "template"
+        "template",
+        "content"
       ]
     },
     {
       "name": "writing",
       "count": 1,
       "related_tags": [
+        "template",
         "article",
-        "content",
-        "template"
+        "content"
       ]
     }
   ]
