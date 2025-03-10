@@ -4,13 +4,12 @@ This repository contains a collection of reference SMs that are categorized by t
 
 ## List of Topics
 
+### VP AGENT Enhancer
+- [VP AGENT GitHub Category](VP_AGENT_Enhancer/VP_AGENT_GitHub_Category.md)
+
 ### AI 
 - [PROMPT ENGINE](AI/PROMPT_ENGINE.md)
-- [SM Title 2](category1/SM2.md)
-
-### Category 2
-- [SM Title 3](category2/SM1.md)
-- [SM Title 4](category2/SM2.md)
+- [SYSTEM MESSAGE ENGINEER](AI/SYSTEM_MESSAGE_ENGINEER.md)
 
 ## How to use
 To use this knowledge base (VP AGENT), click on the links above or refer to the relevant folders.
@@ -29,4 +28,3 @@ This repository contains a collection of reference SMs that are categorized by t
 
 ## How to use
 To use this knowledge base, click on the links above or refer to the relevant folders.
-
