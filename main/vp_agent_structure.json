@@ -1,5 +1,46 @@
 {
-  "files": [],
+  "files": [
+    {
+      "path": "prompts/main/psm_vp_agent.md",
+      "category": "1.1",
+      "title": "Primary System Message",
+      "tags": ["system prompt", "core", "initialization", "PSM", "VP AGENT"],
+      "summary": "The main system prompt defining all rules and functions of VP AGENT.",
+      "last_updated": "2023-08-15",
+      "language": "en",
+      "related_files": ["prompts/main/initialization.md", "prompts/main/configuration.md"]
+    },
+    {
+      "path": "prompts/utilities/summary_extraction.md",
+      "category": "2.1",
+      "title": "Summary Extraction",
+      "tags": ["utility", "summary", "extraction", "AI", "content"],
+      "summary": "Prompt for automatically extracting summaries from long and complex texts.",
+      "last_updated": "2023-08-16",
+      "language": "en",
+      "related_files": ["prompts/utilities/tag_extraction.md"]
+    },
+    {
+      "path": "templates/article.md",
+      "category": "3.1",
+      "title": "Article Template",
+      "tags": ["template", "article", "content", "writing"],
+      "summary": "Standard template for writing articles.",
+      "last_updated": "2023-08-16",
+      "language": "en",
+      "related_files": ["templates/report.md"]
+    },
+    {
+      "path": "tutorials/getting_started.md",
+      "category": "4.1",
+      "title": "Getting Started Guide",
+      "tags": ["tutorial", "beginner", "guide", "introduction"],
+      "summary": "A beginner's guide to using VP AGENT.",
+      "last_updated": "2023-08-16",
+      "language": "en",
+      "related_files": ["tutorials/advanced_techniques.md"]
+    }
+  ],
   "categories": [
     {
       "id": "1",
@@ -22,5 +63,41 @@
       "description": "Tutorials and guides for using VP AGENT"
     }
   ],
-  "tags": []
+  "tags": [
+    {
+      "name": "system prompt",
+      "count": 1,
+      "related_tags": ["core", "PSM", "initialization"]
+    },
+    {
+      "name": "utility",
+      "count": 1,
+      "related_tags": ["extraction", "summary", "content"]
+    },
+    {
+      "name": "template",
+      "count": 1,
+      "related_tags": ["article", "content", "writing"]
+    },
+    {
+      "name": "tutorial",
+      "count": 1,
+      "related_tags": ["beginner", "guide", "introduction"]
+    },
+    {
+      "name": "core",
+      "count": 1,
+      "related_tags": ["system prompt", "PSM", "VP AGENT"]
+    },
+    {
+      "name": "article",
+      "count": 1,
+      "related_tags": ["template", "writing", "content"]
+    },
+    {
+      "name": "beginner",
+      "count": 1,
+      "related_tags": ["tutorial", "guide", "introduction"]
+    }
+  ]
 }
