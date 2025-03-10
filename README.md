@@ -5,7 +5,7 @@ This repository contains a collection of reference SMs that are categorized by t
 ## List of Topics
 
 ### VP AGENT Enhancer
-- [VP AGENT GitHub Category](VP AGENT Enhancer/VP_AGENT_GitHub_Category.md)
+- [VP AGENT GitHub Category](VP_AGENT_Enhancer/VP_AGENT_GitHub_Category.md)
 
 ### AI 
 - [PROMPT ENGINE](AI/PROMPT_ENGINE.md)
