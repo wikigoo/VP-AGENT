@@ -39,19 +39,18 @@
     },
     {
       "path": "tutorials/getting_started.md",
-      "category": "4.1",
-      "title": "Getting Started Guide",
+      "category": "tutorials/getting_started",
+      "title": "Getting Started with VP-AGENT",
       "tags": [
-        "tutorial",
-        "beginner",
         "guide",
-        "introduction"
+        "introduction",
+        "overview"
       ],
-      "summary": "A beginner's guide to using VP AGENT.",
-      "last_updated": "2023-08-16",
+      "summary": "Introduction to the VP-AGENT repository and how to use it",
+      "last_updated": "2025-03-11",
       "language": "en",
       "related_files": [
-        "tutorials/advanced_techniques.md"
+        "tutorials/contribution_guide.md"
       ]
     },
     {
@@ -99,10 +98,10 @@
       "name": "system prompt",
       "count": 1,
       "related_tags": [
-        "initialization",
         "VP AGENT",
+        "PSM",
         "core",
-        "PSM"
+        "initialization"
       ]
     },
     {
@@ -110,9 +109,9 @@
       "count": 1,
       "related_tags": [
         "system prompt",
+        "PSM",
         "initialization",
-        "VP AGENT",
-        "PSM"
+        "VP AGENT"
       ]
     },
     {
@@ -120,9 +119,9 @@
       "count": 1,
       "related_tags": [
         "system prompt",
-        "VP AGENT",
+        "PSM",
         "core",
-        "PSM"
+        "VP AGENT"
       ]
     },
     {
@@ -130,9 +129,9 @@
       "count": 1,
       "related_tags": [
         "system prompt",
+        "core",
         "initialization",
-        "VP AGENT",
-        "core"
+        "VP AGENT"
       ]
     },
     {
@@ -140,18 +139,18 @@
       "count": 1,
       "related_tags": [
         "system prompt",
-        "initialization",
+        "PSM",
         "core",
-        "PSM"
+        "initialization"
       ]
     },
     {
       "name": "utility",
       "count": 1,
       "related_tags": [
-        "summary",
         "content",
         "AI",
+        "summary",
         "extraction"
       ]
     },
@@ -159,28 +158,28 @@
       "name": "summary",
       "count": 1,
       "related_tags": [
+        "content",
         "AI",
         "utility",
-        "extraction",
-        "content"
+        "extraction"
       ]
     },
     {
       "name": "extraction",
       "count": 1,
       "related_tags": [
-        "summary",
+        "content",
         "AI",
-        "utility",
-        "content"
+        "summary",
+        "utility"
       ]
     },
     {
       "name": "AI",
       "count": 1,
       "related_tags": [
-        "summary",
         "content",
+        "summary",
         "utility",
         "extraction"
       ]
@@ -189,46 +188,34 @@
       "name": "content",
       "count": 2,
       "related_tags": [
-        "AI",
+        "template",
         "utility",
         "writing",
-        "template",
+        "AI",
         "summary"
-      ]
-    },
-    {
-      "name": "tutorial",
-      "count": 1,
-      "related_tags": [
-        "beginner",
-        "introduction",
-        "guide"
-      ]
-    },
-    {
-      "name": "beginner",
-      "count": 1,
-      "related_tags": [
-        "introduction",
-        "tutorial",
-        "guide"
       ]
     },
     {
       "name": "guide",
       "count": 1,
       "related_tags": [
-        "introduction",
-        "beginner",
-        "tutorial"
+        "overview",
+        "introduction"
       ]
     },
     {
       "name": "introduction",
       "count": 1,
       "related_tags": [
-        "beginner",
-        "tutorial",
+        "overview",
+        "guide"
+      ]
+    },
+    {
+      "name": "overview",
+      "count": 1,
+      "related_tags": [
+        "introduction",
         "guide"
       ]
     },
@@ -236,27 +223,27 @@
       "name": "template",
       "count": 1,
       "related_tags": [
+        "content",
         "article",
-        "writing",
-        "content"
+        "writing"
       ]
     },
     {
       "name": "article",
       "count": 1,
       "related_tags": [
+        "template",
         "content",
-        "writing",
-        "template"
+        "writing"
       ]
     },
     {
       "name": "writing",
       "count": 1,
       "related_tags": [
+        "template",
         "content",
-        "article",
-        "template"
+        "article"
       ]
     }
   ]
