@@ -1,250 +1,92 @@
 {
-  "files": [
-    {
-      "path": "prompts/main/psm_vp_agent.md",
-      "category": "1.1",
-      "title": "Primary System Message",
-      "tags": [
-        "system prompt",
-        "core",
-        "initialization",
-        "PSM",
-        "VP AGENT"
+  "last_updated": "2023-08-18T14:30:00Z",
+  "categories": {
+    "prompts": {
+      "main": {
+        "files": [
+          "prompts/main/psm_vp_agent_documentation.md"
+        ],
+        "description": "Primary system prompts that define VP AGENT behavior"
+      },
+      "utilities": {
+        "files": [],
+        "description": "Helper prompts for specific tasks"
+      }
+    },
+    "tutorials": {
+      "contribution": {
+        "files": [
+          "tutorials/contribution_guide.md"
+        ],
+        "description": "Guides for contributing to VP AGENT"
+      }
+    },
+    "templates": {
+      "files": [
+        "templates/system_prompt_template.md"
       ],
-      "summary": "The main system prompt defining all rules and functions of VP AGENT.",
-      "last_updated": "2023-08-15",
+      "description": "Example templates for creating new content"
+    }
+  },
+  "tags": {
+    "system-prompt": [
+      "prompts/main/psm_vp_agent_documentation.md",
+      "templates/system_prompt_template.md"
+    ],
+    "documentation": [
+      "prompts/main/psm_vp_agent_documentation.md"
+    ],
+    "contribution": [
+      "tutorials/contribution_guide.md"
+    ],
+    "guide": [
+      "tutorials/contribution_guide.md"
+    ],
+    "metadata": [
+      "tutorials/contribution_guide.md"
+    ],
+    "template": [
+      "templates/system_prompt_template.md"
+    ],
+    "example": [
+      "templates/system_prompt_template.md"
+    ]
+  },
+  "files": {
+    "prompts/main/psm_vp_agent_documentation.md": {
+      "title": "VP AGENT Documentation System",
+      "date": "2023-08-18",
+      "tags": ["system-prompt", "documentation", "guide"],
+      "category": "prompts/main",
+      "summary": "System prompt for providing documentation and guidance on the VP-AGENT repository",
       "language": "en",
       "related_files": [
-        "prompts/main/initialization.md",
-        "prompts/main/configuration.md"
+        "tutorials/contribution_guide.md",
+        "templates/system_prompt_template.md"
       ]
     },
-    {
-      "path": "prompts/utilities/summary_extraction.md",
-      "category": "2.1",
-      "title": "Summary Extraction",
-      "tags": [
-        "utility",
-        "summary",
-        "extraction",
-        "AI",
-        "content"
-      ],
-      "summary": "Prompt for automatically extracting summaries from long and complex texts.",
-      "last_updated": "2023-08-16",
+    "tutorials/contribution_guide.md": {
+      "title": "VP-AGENT Contribution Guide",
+      "date": "2023-08-18",
+      "tags": ["contribution", "guide", "workflow", "metadata"],
+      "category": "tutorials/contribution",
+      "summary": "Complete guide for adding new content to the VP-AGENT repository",
       "language": "en",
       "related_files": [
-        "prompts/utilities/tag_extraction.md"
+        "templates/system_prompt_template.md"
       ]
     },
-    {
-      "path": "tutorials/getting_started.md",
-      "category": "tutorials/getting_started",
-      "title": "Getting Started with VP-AGENT",
-      "tags": [
-        "guide",
-        "introduction",
-        "overview"
-      ],
-      "summary": "Introduction to the VP-AGENT repository and how to use it",
-      "last_updated": "2025-03-11",
+    "templates/system_prompt_template.md": {
+      "title": "System Prompt Template",
+      "date": "2023-08-18",
+      "tags": ["template", "system-prompt", "example"],
+      "category": "templates",
+      "summary": "Standard template for creating new system prompts",
       "language": "en",
       "related_files": [
+        "prompts/main/psm_vp_agent_documentation.md",
         "tutorials/contribution_guide.md"
       ]
-    },
-    {
-      "path": "templates/article.md",
-      "category": "3.1",
-      "title": "Article Template",
-      "tags": [
-        "template",
-        "article",
-        "content",
-        "writing"
-      ],
-      "summary": "Standard template for writing articles.",
-      "last_updated": "2023-08-16",
-      "language": "en",
-      "related_files": [
-        "templates/report.md"
-      ]
     }
-  ],
-  "categories": [
-    {
-      "id": "1",
-      "name": "Core Prompts",
-      "description": "Primary system prompts for VP AGENT"
-    },
-    {
-      "id": "2",
-      "name": "Utility Tools",
-      "description": "Tools for data extraction and management"
-    },
-    {
-      "id": "3",
-      "name": "Content Templates",
-      "description": "Templates for various content formats"
-    },
-    {
-      "id": "4",
-      "name": "Educational Resources",
-      "description": "Tutorials and guides for using VP AGENT"
-    }
-  ],
-  "tags": [
-    {
-      "name": "system prompt",
-      "count": 1,
-      "related_tags": [
-        "VP AGENT",
-        "PSM",
-        "core",
-        "initialization"
-      ]
-    },
-    {
-      "name": "core",
-      "count": 1,
-      "related_tags": [
-        "system prompt",
-        "PSM",
-        "initialization",
-        "VP AGENT"
-      ]
-    },
-    {
-      "name": "initialization",
-      "count": 1,
-      "related_tags": [
-        "system prompt",
-        "PSM",
-        "core",
-        "VP AGENT"
-      ]
-    },
-    {
-      "name": "PSM",
-      "count": 1,
-      "related_tags": [
-        "system prompt",
-        "core",
-        "initialization",
-        "VP AGENT"
-      ]
-    },
-    {
-      "name": "VP AGENT",
-      "count": 1,
-      "related_tags": [
-        "system prompt",
-        "PSM",
-        "core",
-        "initialization"
-      ]
-    },
-    {
-      "name": "utility",
-      "count": 1,
-      "related_tags": [
-        "content",
-        "AI",
-        "summary",
-        "extraction"
-      ]
-    },
-    {
-      "name": "summary",
-      "count": 1,
-      "related_tags": [
-        "content",
-        "AI",
-        "utility",
-        "extraction"
-      ]
-    },
-    {
-      "name": "extraction",
-      "count": 1,
-      "related_tags": [
-        "content",
-        "AI",
-        "summary",
-        "utility"
-      ]
-    },
-    {
-      "name": "AI",
-      "count": 1,
-      "related_tags": [
-        "content",
-        "summary",
-        "utility",
-        "extraction"
-      ]
-    },
-    {
-      "name": "content",
-      "count": 2,
-      "related_tags": [
-        "template",
-        "utility",
-        "writing",
-        "AI",
-        "summary"
-      ]
-    },
-    {
-      "name": "guide",
-      "count": 1,
-      "related_tags": [
-        "overview",
-        "introduction"
-      ]
-    },
-    {
-      "name": "introduction",
-      "count": 1,
-      "related_tags": [
-        "overview",
-        "guide"
-      ]
-    },
-    {
-      "name": "overview",
-      "count": 1,
-      "related_tags": [
-        "introduction",
-        "guide"
-      ]
-    },
-    {
-      "name": "template",
-      "count": 1,
-      "related_tags": [
-        "content",
-        "article",
-        "writing"
-      ]
-    },
-    {
-      "name": "article",
-      "count": 1,
-      "related_tags": [
-        "template",
-        "content",
-        "writing"
-      ]
-    },
-    {
-      "name": "writing",
-      "count": 1,
-      "related_tags": [
-        "template",
-        "content",
-        "article"
-      ]
-    }
-  ]
+  }
 }
