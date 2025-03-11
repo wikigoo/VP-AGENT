@@ -1,35 +1,40 @@
 name: Update Structure JSON
 
 # This workflow runs when changes are made to markdown files
-# except for README.md
+# except for README.md and index.md
 on:
   push:
     paths:
       - '**.md'
       - '!README.md'
       - '!index.md'
+  # Add manual trigger option
+  workflow_dispatch:
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      # Get code from repository
+      # Get code from repository with full history
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       # Set up Python
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.10'
+          cache: 'pip'
 
       # Install required libraries
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml
+          pip install pyyaml requests
 
       # Run update script
       - name: Update JSON file
