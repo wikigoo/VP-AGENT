@@ -1,109 +1,79 @@
 ---
-title: "Getting Started Guide"
-category: "4.1"
-tags: ["tutorial", "beginner", "guide", "introduction"]
-summary: "A beginner's guide to using VP AGENT."
-last_updated: "2023-08-16"
+title: "Getting Started with VP-AGENT"
+date: "2023-08-18"
+tags: ["guide", "introduction", "overview"]
+category: "tutorials/getting_started"
+summary: "Introduction to the VP-AGENT repository and how to use it"
 language: "en"
-related_files: ["tutorials/advanced_techniques.md"]
+related_files: ["tutorials/contribution_guide.md"]
 ---
 
-# Getting Started with VP AGENT
+# Getting Started with VP-AGENT
 
-## Introduction
+This guide introduces the VP-AGENT repository, its purpose, and how to use it effectively.
 
-Welcome to VP AGENT! This guide will help you get started with using VP AGENT effectively for your projects. VP AGENT is designed to assist with a wide range of tasks including content creation, information processing, and problem-solving.
+## What is VP-AGENT?
 
-## Basic Concepts
+VP-AGENT is a repository designed to organize and manage:
 
-### What is VP AGENT?
+1. System prompts for AI assistants
+2. Documentation and tutorials
+3. Templates and examples
 
-VP AGENT is an AI assistant system designed to help with various tasks through natural language interaction. It works by processing your requests and generating appropriate responses based on its training and the specific instructions (prompts) it receives.
+The repository uses a structured approach to make information easily accessible to both humans and AI assistants.
 
-### How Does It Work?
+## Repository Organization
 
-VP AGENT operates on a prompt-based system:
-1. You provide instructions or questions (prompts)
-2. VP AGENT processes your input
-3. VP AGENT generates a response based on your prompt and its capabilities
+The VP-AGENT repository is organized into these main directories:
 
-## Getting Started
+- `/prompts/main/`: Contains primary system prompts that define the behavior of AI assistants
+- `/prompts/utilities/`: Contains helper prompts for specific tasks like tag extraction
+- `/tutorials/`: Contains guides and documentation about the system
+- `/templates/`: Contains example templates for creating new content
+- `/main/`: Contains core configuration files including the structure JSON
 
-### Step 1: Understanding Prompt Types
+## Key Components
 
-VP AGENT works with several types of prompts:
+### 1. System Prompts
 
-- **Basic prompts**: Simple questions or instructions
-  - Example: "Explain how photosynthesis works."
+System prompts are instructions for AI models that define:
+- How to respond to questions
+- How to format responses
+- How to access and prioritize information
+- How to handle different types of queries
 
-- **Structured prompts**: Instructions with specific format requirements
-  - Example: "Create a 5-point summary of climate change impacts."
+### 2. Documentation
 
-- **Creative prompts**: Requests for creative content
-  - Example: "Write a short story about a robot discovering emotions."
+Documentation files provide detailed information about:
+- How the system works
+- How to contribute new content
+- Best practices for using the system
+- Technical details and specifications
 
-- **Analytical prompts**: Requests for analysis or evaluation
-  - Example: "Analyze the pros and cons of remote work."
+### 3. JSON Structure
 
-### Step 2: Crafting Effective Prompts
+The `vp_agent_structure.json` file serves as the central index for the repository:
+- Maps categories to specific files
+- Maintains a tag system for content discovery
+- Stores summaries of each file for quick reference
+- Tracks relationships between related files
 
-For best results:
+## How to Use This Repository
 
-1. **Be specific**: Clearly state what you need
-   - Instead of "Tell me about cars," try "Explain the evolution of electric vehicles from 2010 to 2023."
+### For End Users
 
-2. **Provide context**: Include relevant background information
-   - "I'm a high school teacher preparing a lesson on photosynthesis for 10th graders. Create an engaging explanation with simple analogies."
+1. Browse the `/tutorials/` directory for guides and documentation
+2. Look at the `/templates/` directory for examples
+3. Use the system prompts with compatible AI assistants
 
-3. **Specify format**: Mention your preferred output structure
-   - "Create a step-by-step guide with numbered points and brief explanations for each step."
+### For Contributors
 
-4. **Indicate tone**: Mention your preferred communication style
-   - "Explain quantum computing in a conversational, beginner-friendly tone."
-
-### Step 3: Using Special Features
-
-VP AGENT has several special capabilities:
-
-- **Multi-language support**: Specify your preferred language
-  - "Explain this concept in Spanish."
-
-- **Content formatting**: Request specific formats
-  - "Format this as a markdown table."
-
-- **Information summarization**: Ask for condensed information
-  - "Summarize the key points of this article in 3-5 bullet points."
-
-## Example Use Cases
-
-### Content Creation
-
-Create an engaging introduction for a blog post about sustainable gardening practices.
-The target audience is urban apartment dwellers with limited space.
-Keep the tone conversational and include 3 compelling statistics.
-
-### Research Assistance
-
-I need to understand the basics of blockchain technology.
-Provide an explanation suitable for a non-technical audience,
-covering the fundamental concepts, key benefits, and common applications.
-
-### Problem Solving
-
-## Troubleshooting
-
-If you're not getting the results you want:
-
-1. **Refine your prompt**: Add more details or clarify your request
-2. **Break down complex requests**: Split into smaller, more manageable prompts
-3. **Provide examples**: Show the kind of output you're expecting
-4. **Iterate**: Use VP AGENT's responses to refine your subsequent prompts
+1. Read the [Contribution Guide](contribution_guide.md)
+2. Use the templates in the `/templates/` directory
+3. Follow the metadata and organization standards
 
 ## Next Steps
 
-Once you're comfortable with the basics:
-- Explore the [Advanced Techniques](./advanced_techniques.md) guide
-- Check out [Case Studies](./case_studies.md) for real-world applications
-- Review [Best Practices](./best_practices.md) for optimization tips
-
-Happy prompting!
+- Read the [Contribution Guide](contribution_guide.md) to learn how to add new content
+- Explore the system prompts to understand how they work
+- Check out the templates for examples of different content types
