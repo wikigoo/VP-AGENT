@@ -1,5 +1,37 @@
 # VP-AGENT
 
+VP-AGENT is a repository for managing and organizing AI assistant system prompts and related documentation.
+
+## Repository Structure
+
+- `/prompts/main/`: Primary system prompts
+- `/prompts/utilities/`: Helper prompts for specific tasks
+- `/tutorials/`: Guides and documentation
+- `/templates/`: Example templates for content
+- `/main/`: Core configuration files
+
+## Getting Started
+
+To learn more about this repository, you can:
+
+1. Read the [Contribution Guide](tutorials/contribution_guide.md)
+2. Explore the [System Prompt Template](templates/system_prompt_template.md)
+3. View the [Documentation System Prompt](prompts/main/psm_vp_agent_documentation.md)
+
+## How It Works
+
+This repository uses a combination of:
+
+1. **System Prompts**: Instructions for AI models on how to process and present information
+2. **Documentation**: Detailed guides and explanations about the system
+3. **JSON Structure**: A central index that maps relationships between files
+
+When interacting with an AI assistant using this repository, the system prompt guides the AI on how to access and present information from the documentation files.
+
+## Contributing
+
+See the [Contribution Guide](tutorials/contribution_guide.md) for detailed instructions on adding new content to this repository.
+
 Repository of information and prompts for the VP AGENT system
 
 ## Category Index
