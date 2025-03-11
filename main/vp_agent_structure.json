@@ -33,27 +33,27 @@
       "name": "system-prompt",
       "count": 1,
       "related_tags": [
-        "guide",
-        "documentation"
+        "documentation",
+        "guide"
       ]
     },
     {
       "name": "documentation",
       "count": 1,
       "related_tags": [
-        "guide",
-        "system-prompt"
+        "system-prompt",
+        "guide"
       ]
     },
     {
       "name": "guide",
       "count": 3,
       "related_tags": [
-        "contribution",
         "system-prompt",
         "metadata",
-        "introduction",
-        "overview"
+        "overview",
+        "workflow",
+        "documentation"
       ]
     },
     {
@@ -71,8 +71,8 @@
       "count": 1,
       "related_tags": [
         "VP AGENT",
-        "system prompt",
         "initialization",
+        "system prompt",
         "PSM"
       ]
     },
@@ -81,8 +81,8 @@
       "count": 1,
       "related_tags": [
         "VP AGENT",
-        "system prompt",
         "core",
+        "system prompt",
         "PSM"
       ]
     },
@@ -91,18 +91,18 @@
       "count": 1,
       "related_tags": [
         "VP AGENT",
-        "system prompt",
         "initialization",
-        "core"
+        "core",
+        "system prompt"
       ]
     },
     {
       "name": "VP AGENT",
       "count": 1,
       "related_tags": [
-        "system prompt",
         "initialization",
         "core",
+        "system prompt",
         "PSM"
       ]
     },
@@ -110,18 +110,18 @@
       "name": "utility",
       "count": 1,
       "related_tags": [
-        "summary",
-        "extraction",
         "content",
-        "AI"
+        "AI",
+        "extraction",
+        "summary"
       ]
     },
     {
       "name": "summary",
       "count": 1,
       "related_tags": [
-        "utility",
         "content",
+        "utility",
         "extraction",
         "AI"
       ]
@@ -130,20 +130,20 @@
       "name": "extraction",
       "count": 1,
       "related_tags": [
-        "summary",
-        "utility",
         "content",
-        "AI"
+        "utility",
+        "AI",
+        "summary"
       ]
     },
     {
       "name": "AI",
       "count": 1,
       "related_tags": [
-        "summary",
-        "utility",
         "content",
-        "extraction"
+        "utility",
+        "extraction",
+        "summary"
       ]
     },
     {
@@ -151,9 +151,9 @@
       "count": 2,
       "related_tags": [
         "extraction",
+        "article",
         "writing",
         "summary",
-        "template",
         "AI"
       ]
     },
@@ -162,26 +162,26 @@
       "count": 1,
       "related_tags": [
         "guide",
-        "workflow",
-        "metadata"
+        "metadata",
+        "workflow"
       ]
     },
     {
       "name": "workflow",
       "count": 1,
       "related_tags": [
-        "guide",
         "contribution",
-        "metadata"
+        "metadata",
+        "guide"
       ]
     },
     {
       "name": "metadata",
       "count": 1,
       "related_tags": [
-        "guide",
         "contribution",
-        "workflow"
+        "workflow",
+        "guide"
       ]
     },
     {
@@ -196,8 +196,8 @@
       "name": "overview",
       "count": 1,
       "related_tags": [
-        "introduction",
-        "guide"
+        "guide",
+        "introduction"
       ]
     },
     {
@@ -214,8 +214,8 @@
       "count": 1,
       "related_tags": [
         "content",
-        "writing",
-        "template"
+        "template",
+        "writing"
       ]
     },
     {
