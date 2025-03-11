@@ -33,26 +33,26 @@
       "name": "system-prompt",
       "count": 1,
       "related_tags": [
-        "guide",
-        "documentation"
+        "documentation",
+        "guide"
       ]
     },
     {
       "name": "documentation",
       "count": 1,
       "related_tags": [
-        "system-prompt",
-        "guide"
+        "guide",
+        "system-prompt"
       ]
     },
     {
       "name": "guide",
       "count": 3,
       "related_tags": [
-        "contribution",
+        "workflow",
         "introduction",
         "documentation",
-        "overview",
+        "system-prompt",
         "metadata"
       ]
     },
@@ -60,39 +60,39 @@
       "name": "system prompt",
       "count": 1,
       "related_tags": [
-        "VP AGENT",
         "initialization",
-        "PSM",
-        "core"
+        "VP AGENT",
+        "core",
+        "PSM"
       ]
     },
     {
       "name": "core",
       "count": 1,
       "related_tags": [
-        "VP AGENT",
         "initialization",
-        "PSM",
-        "system prompt"
+        "VP AGENT",
+        "system prompt",
+        "PSM"
       ]
     },
     {
       "name": "initialization",
       "count": 1,
       "related_tags": [
-        "VP AGENT",
         "core",
-        "PSM",
-        "system prompt"
+        "VP AGENT",
+        "system prompt",
+        "PSM"
       ]
     },
     {
       "name": "PSM",
       "count": 1,
       "related_tags": [
-        "VP AGENT",
         "core",
         "initialization",
+        "VP AGENT",
         "system prompt"
       ]
     },
@@ -102,8 +102,8 @@
       "related_tags": [
         "core",
         "initialization",
-        "PSM",
-        "system prompt"
+        "system prompt",
+        "PSM"
       ]
     },
     {
@@ -111,8 +111,8 @@
       "count": 1,
       "related_tags": [
         "summary",
-        "content",
         "extraction",
+        "content",
         "AI"
       ]
     },
@@ -120,9 +120,9 @@
       "name": "summary",
       "count": 1,
       "related_tags": [
-        "content",
         "utility",
         "extraction",
+        "content",
         "AI"
       ]
     },
@@ -130,9 +130,9 @@
       "name": "extraction",
       "count": 1,
       "related_tags": [
+        "utility",
         "summary",
         "content",
-        "utility",
         "AI"
       ]
     },
@@ -140,48 +140,48 @@
       "name": "AI",
       "count": 1,
       "related_tags": [
-        "summary",
-        "content",
         "utility",
-        "extraction"
+        "summary",
+        "extraction",
+        "content"
       ]
     },
     {
       "name": "content",
       "count": 2,
       "related_tags": [
+        "template",
         "writing",
         "utility",
-        "template",
-        "article",
-        "summary"
+        "extraction",
+        "article"
       ]
     },
     {
       "name": "contribution",
       "count": 1,
       "related_tags": [
-        "metadata",
+        "workflow",
         "guide",
-        "workflow"
+        "metadata"
       ]
     },
     {
       "name": "workflow",
       "count": 1,
       "related_tags": [
-        "metadata",
+        "contribution",
         "guide",
-        "contribution"
+        "metadata"
       ]
     },
     {
       "name": "metadata",
       "count": 1,
       "related_tags": [
-        "guide",
+        "workflow",
         "contribution",
-        "workflow"
+        "guide"
       ]
     },
     {
@@ -196,8 +196,8 @@
       "name": "overview",
       "count": 1,
       "related_tags": [
-        "guide",
-        "introduction"
+        "introduction",
+        "guide"
       ]
     },
     {
@@ -213,8 +213,8 @@
       "name": "article",
       "count": 1,
       "related_tags": [
-        "template",
         "content",
+        "template",
         "writing"
       ]
     },
@@ -223,8 +223,8 @@
       "count": 1,
       "related_tags": [
         "article",
-        "template",
-        "content"
+        "content",
+        "template"
       ]
     }
   ],
