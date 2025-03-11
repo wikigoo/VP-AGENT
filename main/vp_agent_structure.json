@@ -28,65 +28,278 @@
       "description": "Example templates for creating new content"
     }
   },
-  "tags": {
-    "system-prompt": [
-      "prompts/main/psm_vp_agent_documentation.md",
-      "templates/system_prompt_template.md"
-    ],
-    "documentation": [
-      "prompts/main/psm_vp_agent_documentation.md"
-    ],
-    "contribution": [
-      "tutorials/contribution_guide.md"
-    ],
-    "guide": [
-      "tutorials/contribution_guide.md"
-    ],
-    "metadata": [
-      "tutorials/contribution_guide.md"
-    ],
-    "template": [
-      "templates/system_prompt_template.md"
-    ],
-    "example": [
-      "templates/system_prompt_template.md"
-    ]
-  },
-  "files": {
-    "prompts/main/psm_vp_agent_documentation.md": {
-      "title": "VP AGENT Documentation System",
-      "date": "2023-08-18",
-      "tags": ["system-prompt", "documentation", "guide"],
-      "category": "prompts/main",
-      "summary": "System prompt for providing documentation and guidance on the VP-AGENT repository",
-      "language": "en",
-      "related_files": [
-        "tutorials/contribution_guide.md",
-        "templates/system_prompt_template.md"
+  "tags": [
+    {
+      "name": "system prompt",
+      "count": 1,
+      "related_tags": [
+        "initialization",
+        "PSM",
+        "VP AGENT",
+        "core"
       ]
     },
-    "tutorials/contribution_guide.md": {
-      "title": "VP-AGENT Contribution Guide",
-      "date": "2023-08-18",
-      "tags": ["contribution", "guide", "workflow", "metadata"],
-      "category": "tutorials/contribution",
-      "summary": "Complete guide for adding new content to the VP-AGENT repository",
-      "language": "en",
-      "related_files": [
-        "templates/system_prompt_template.md"
+    {
+      "name": "core",
+      "count": 1,
+      "related_tags": [
+        "initialization",
+        "system prompt",
+        "PSM",
+        "VP AGENT"
       ]
     },
-    "templates/system_prompt_template.md": {
-      "title": "System Prompt Template",
-      "date": "2023-08-18",
-      "tags": ["template", "system-prompt", "example"],
-      "category": "templates",
-      "summary": "Standard template for creating new system prompts",
-      "language": "en",
-      "related_files": [
-        "prompts/main/psm_vp_agent_documentation.md",
-        "tutorials/contribution_guide.md"
+    {
+      "name": "initialization",
+      "count": 1,
+      "related_tags": [
+        "PSM",
+        "system prompt",
+        "VP AGENT",
+        "core"
+      ]
+    },
+    {
+      "name": "PSM",
+      "count": 1,
+      "related_tags": [
+        "initialization",
+        "system prompt",
+        "VP AGENT",
+        "core"
+      ]
+    },
+    {
+      "name": "VP AGENT",
+      "count": 1,
+      "related_tags": [
+        "initialization",
+        "system prompt",
+        "PSM",
+        "core"
+      ]
+    },
+    {
+      "name": "utility",
+      "count": 1,
+      "related_tags": [
+        "extraction",
+        "summary",
+        "content",
+        "AI"
+      ]
+    },
+    {
+      "name": "summary",
+      "count": 1,
+      "related_tags": [
+        "extraction",
+        "utility",
+        "content",
+        "AI"
+      ]
+    },
+    {
+      "name": "extraction",
+      "count": 1,
+      "related_tags": [
+        "summary",
+        "utility",
+        "content",
+        "AI"
+      ]
+    },
+    {
+      "name": "AI",
+      "count": 1,
+      "related_tags": [
+        "extraction",
+        "summary",
+        "utility",
+        "content"
+      ]
+    },
+    {
+      "name": "content",
+      "count": 2,
+      "related_tags": [
+        "extraction",
+        "summary",
+        "utility",
+        "writing",
+        "article"
+      ]
+    },
+    {
+      "name": "contribution",
+      "count": 1,
+      "related_tags": [
+        "metadata",
+        "workflow",
+        "guide"
+      ]
+    },
+    {
+      "name": "guide",
+      "count": 2,
+      "related_tags": [
+        "metadata",
+        "overview",
+        "introduction",
+        "workflow",
+        "contribution"
+      ]
+    },
+    {
+      "name": "workflow",
+      "count": 1,
+      "related_tags": [
+        "metadata",
+        "guide",
+        "contribution"
+      ]
+    },
+    {
+      "name": "metadata",
+      "count": 1,
+      "related_tags": [
+        "workflow",
+        "guide",
+        "contribution"
+      ]
+    },
+    {
+      "name": "introduction",
+      "count": 1,
+      "related_tags": [
+        "overview",
+        "guide"
+      ]
+    },
+    {
+      "name": "overview",
+      "count": 1,
+      "related_tags": [
+        "introduction",
+        "guide"
+      ]
+    },
+    {
+      "name": "template",
+      "count": 1,
+      "related_tags": [
+        "article",
+        "writing",
+        "content"
+      ]
+    },
+    {
+      "name": "article",
+      "count": 1,
+      "related_tags": [
+        "template",
+        "writing",
+        "content"
+      ]
+    },
+    {
+      "name": "writing",
+      "count": 1,
+      "related_tags": [
+        "article",
+        "template",
+        "content"
       ]
     }
-  }
+  ],
+  "files": [
+    {
+      "path": "prompts/main/psm_vp_agent.md",
+      "category": "1.1",
+      "title": "Primary System Message",
+      "tags": [
+        "system prompt",
+        "core",
+        "initialization",
+        "PSM",
+        "VP AGENT"
+      ],
+      "summary": "The main system prompt defining all rules and functions of VP AGENT.",
+      "last_updated": "2023-08-15",
+      "language": "en",
+      "related_files": [
+        "prompts/main/initialization.md",
+        "prompts/main/configuration.md"
+      ]
+    },
+    {
+      "path": "prompts/utilities/summary_extraction.md",
+      "category": "2.1",
+      "title": "Summary Extraction",
+      "tags": [
+        "utility",
+        "summary",
+        "extraction",
+        "AI",
+        "content"
+      ],
+      "summary": "Prompt for automatically extracting summaries from long and complex texts.",
+      "last_updated": "2023-08-16",
+      "language": "en",
+      "related_files": [
+        "prompts/utilities/tag_extraction.md"
+      ]
+    },
+    {
+      "path": "tutorials/contribution_guide.md",
+      "category": "tutorials/contribution",
+      "title": "VP-AGENT Contribution Guide",
+      "tags": [
+        "contribution",
+        "guide",
+        "workflow",
+        "metadata"
+      ],
+      "summary": "Complete guide for adding new content to the VP-AGENT repository",
+      "last_updated": "2025-03-11",
+      "language": "en",
+      "related_files": [
+        "templates/system_prompt_template.md",
+        "templates/tutorial_template.md"
+      ]
+    },
+    {
+      "path": "tutorials/getting_started.md",
+      "category": "tutorials/getting_started",
+      "title": "Getting Started with VP-AGENT",
+      "tags": [
+        "guide",
+        "introduction",
+        "overview"
+      ],
+      "summary": "Introduction to the VP-AGENT repository and how to use it",
+      "last_updated": "2025-03-11",
+      "language": "en",
+      "related_files": [
+        "tutorials/contribution_guide.md"
+      ]
+    },
+    {
+      "path": "templates/article.md",
+      "category": "3.1",
+      "title": "Article Template",
+      "tags": [
+        "template",
+        "article",
+        "content",
+        "writing"
+      ],
+      "summary": "Standard template for writing articles.",
+      "last_updated": "2023-08-16",
+      "language": "en",
+      "related_files": [
+        "templates/report.md"
+      ]
+    }
+  ]
 }
