@@ -30,42 +30,69 @@
   },
   "tags": [
     {
+      "name": "system-prompt",
+      "count": 1,
+      "related_tags": [
+        "guide",
+        "documentation"
+      ]
+    },
+    {
+      "name": "documentation",
+      "count": 1,
+      "related_tags": [
+        "guide",
+        "system-prompt"
+      ]
+    },
+    {
+      "name": "guide",
+      "count": 3,
+      "related_tags": [
+        "contribution",
+        "system-prompt",
+        "metadata",
+        "introduction",
+        "overview"
+      ]
+    },
+    {
       "name": "system prompt",
       "count": 1,
       "related_tags": [
-        "initialization",
-        "PSM",
         "VP AGENT",
-        "core"
+        "initialization",
+        "core",
+        "PSM"
       ]
     },
     {
       "name": "core",
       "count": 1,
       "related_tags": [
-        "initialization",
+        "VP AGENT",
         "system prompt",
-        "PSM",
-        "VP AGENT"
+        "initialization",
+        "PSM"
       ]
     },
     {
       "name": "initialization",
       "count": 1,
       "related_tags": [
-        "PSM",
-        "system prompt",
         "VP AGENT",
-        "core"
+        "system prompt",
+        "core",
+        "PSM"
       ]
     },
     {
       "name": "PSM",
       "count": 1,
       "related_tags": [
-        "initialization",
-        "system prompt",
         "VP AGENT",
+        "system prompt",
+        "initialization",
         "core"
       ]
     },
@@ -73,18 +100,18 @@
       "name": "VP AGENT",
       "count": 1,
       "related_tags": [
-        "initialization",
         "system prompt",
-        "PSM",
-        "core"
+        "initialization",
+        "core",
+        "PSM"
       ]
     },
     {
       "name": "utility",
       "count": 1,
       "related_tags": [
-        "extraction",
         "summary",
+        "extraction",
         "content",
         "AI"
       ]
@@ -93,9 +120,9 @@
       "name": "summary",
       "count": 1,
       "related_tags": [
-        "extraction",
         "utility",
         "content",
+        "extraction",
         "AI"
       ]
     },
@@ -113,10 +140,10 @@
       "name": "AI",
       "count": 1,
       "related_tags": [
-        "extraction",
         "summary",
         "utility",
-        "content"
+        "content",
+        "extraction"
       ]
     },
     {
@@ -124,56 +151,45 @@
       "count": 2,
       "related_tags": [
         "extraction",
-        "summary",
-        "utility",
         "writing",
-        "article"
+        "summary",
+        "template",
+        "AI"
       ]
     },
     {
       "name": "contribution",
       "count": 1,
       "related_tags": [
-        "metadata",
+        "guide",
         "workflow",
-        "guide"
-      ]
-    },
-    {
-      "name": "guide",
-      "count": 2,
-      "related_tags": [
-        "metadata",
-        "overview",
-        "introduction",
-        "workflow",
-        "contribution"
+        "metadata"
       ]
     },
     {
       "name": "workflow",
       "count": 1,
       "related_tags": [
-        "metadata",
         "guide",
-        "contribution"
+        "contribution",
+        "metadata"
       ]
     },
     {
       "name": "metadata",
       "count": 1,
       "related_tags": [
-        "workflow",
         "guide",
-        "contribution"
+        "contribution",
+        "workflow"
       ]
     },
     {
       "name": "introduction",
       "count": 1,
       "related_tags": [
-        "overview",
-        "guide"
+        "guide",
+        "overview"
       ]
     },
     {
@@ -188,31 +204,48 @@
       "name": "template",
       "count": 1,
       "related_tags": [
-        "article",
+        "content",
         "writing",
-        "content"
+        "article"
       ]
     },
     {
       "name": "article",
       "count": 1,
       "related_tags": [
-        "template",
+        "content",
         "writing",
-        "content"
+        "template"
       ]
     },
     {
       "name": "writing",
       "count": 1,
       "related_tags": [
-        "article",
+        "content",
         "template",
-        "content"
+        "article"
       ]
     }
   ],
   "files": [
+    {
+      "path": "prompts/main/psm_vp_agent_documentation.md",
+      "category": "prompts/main",
+      "title": "VP AGENT Documentation System",
+      "tags": [
+        "system-prompt",
+        "documentation",
+        "guide"
+      ],
+      "summary": "System prompt for providing documentation and guidance on the VP-AGENT repository",
+      "last_updated": "2025-03-11",
+      "language": "en",
+      "related_files": [
+        "tutorials/getting_started.md",
+        "tutorials/contribution_guide.md"
+      ]
+    },
     {
       "path": "prompts/main/psm_vp_agent.md",
       "category": "1.1",
